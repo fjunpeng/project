@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body class="mt-5 pt-5 bg-secondary">
+  <div class="my_bground pt-5 pb-5 mt-5">
+      <div class="table-responsive-lg w-25 bg-1 m-auto p-5 mt-5">
+          <h1 class="text-white">Welcome back</h1>
+          <table class="table">
+              <tr>
+                  <td colspan="2" class="border-0"><h2 class="text-white">欢迎登录</h2></td>
+              </tr>
+              <tr>
+                  <td colspan="2" class="border-0"><input type="text" class="form-control" placeholder="请输入用户名"></td>
+              </tr>
+              <tr>
+                  <td colspan="2" class="border-0"><input type="text" class="form-control" placeholder="请输入密码"></td>
+              </tr>
+              <tr>
+                  <td class="border-0 text-white"><input type="checkbox" checked>记住密码</td>
+                  <td class="border-0"><span><a href="#" class="text-white" >忘记密码？</a></span></td>
+              </tr>
+              <tr>
+                  <td colspan="2" class="border-0"><input class="btn btn-primary form-control" value="授权并登录" onclick="login()"></td>
+              </tr>
+              <tr>
+                  <td colspan="2" class="border-0"><a href="register1.html" class="text-white text-center"><h4 class="my_auto">注册</h4></a></td>
+              </tr>
+              <tr>
+                  <td colspan="2" class="border-0">
+                          <span class="my_border"></span>
+                          <span class="text-white">第三方账号登录</span>
+                          <span class="my_border"></span>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="2" class="border-0">
+                      <div class="d-flex justify-content-lg-between">
+                          <a href="#"><img src="img/login/wechat.png" ></a>
+                          <a href="#"><img src="img/login/sina.png" ></a>
+                          <a href="#"><img src="img/login/sina.png"></a>
+                      </div>
+                  </td>
+              </tr>
+          </table>
+      </div>
+  </div>
+  <script src="common.js"></script>
+  <script>
+      function login(){
+//          1、创建异步对象
+          var xhr=createXhr();
+//          2.监听事件
+          xhr.onreadystatechange=function(){
+              if(xhr.readyState==4&&xhr.status==400){
+                  var res=xhr.responseText;
+                  alert(res);
+              }
+          }
+          xhr.open("get",'/user/login',true);
+          xhr.send(null);
+      }
+  </script>
+</body>
+</html>

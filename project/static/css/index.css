@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*ÉèÖÃ»ÒÉ«µ×¿ò*/
+.my_bgcolor{
+    background: rgba(0,0,0,0.3);
+}
+.my_bgcolor1{
+    background: #ebebeb;
+}
+.my_bgcolor2{
+    background: rgba(0,0,0,0.5);
+}
+.my_pl{
+     padding-left: 23rem;
+ }
+.my_mt{
+    margin-top: 1.3rem;
+}
+
+.my_locate{
+    bottom: 0;
+    left: 0;
+}
+.child{
+    display: none;
+}
+div.father:hover .child{
+    display: block;
+}
+div.father:hover .my_hidden{
+    display: none;
+}
+.father{
+    cursor: pointer;
+}
+ul>li>a:hover{
+    text-decoration: none;
+}
+.border-1{
+    border: 2px solid white;
+    border-radius:1.5rem;
+}
+.nav_color{
+    background: #181818;
+}
+.my_anone:hover{
+    text-decoration: none;
+}
+.my_translate:hover{
+    transform: rotate3D(0,0,1,360deg);
+    transition: all 1s linear;
+}
+.my_table{
+    box-sizing: border-box;
+}
+

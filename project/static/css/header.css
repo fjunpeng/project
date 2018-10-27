@@ -1,0 +1,14 @@
+.my_color{
+  color: #949790;
+}
+.my_input{
+  border-radius: 1.5rem !important;
+  width: 60%;
+}
+/*设置字体大小*/
+.my_small{
+  font-size: 0.8rem;
+}
+.nav_color{
+  background: #181818;
+}

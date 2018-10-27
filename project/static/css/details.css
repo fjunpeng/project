@@ -1,0 +1,87 @@
+.u-icn-13{
+    width: 54px;
+    height: 24px;
+    background-position: 0 -243px;
+}
+.my_button1{
+    border-radius: 5px 0  0  5px !important;
+}
+.my_button2{
+    border-radius: 0 5px  5px  0 !important;
+}
+.w-10{
+    width: 10%;
+}
+.my_over{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: 20px;
+    max-height: 60px;
+    overflow: hidden;
+}
+.my_over1{
+    width: 160px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+
+}
+.m-table{
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    border-top: 2px solid #C20C0C;
+}
+table{
+    border-spacing: 0;
+    table-layout: fixed;
+    display: table;
+}
+.m-table th{
+    vertical-align: top;
+    text-align:left;
+    color: #666;
+    height: 38px;
+    background-color: #f7f7f7;
+
+}
+.m-table td{
+    height: 30px;
+    line-height: 30px;
+}
+.m-table .wp{
+    height: 18px;
+    line-height: 18px;
+    padding: 8px 10px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.m-table>tbody>tr>td.my-vis>div:nth-child(2){
+    display: none;
+}
+.m-table>tbody>.my-cis:hover>.my-vis>div:nth-child(2){
+    display: block;
+}
+.m-table>tbody>.my-cis:hover>.my-vis>div:nth-child(1){
+    display: none;
+}
+.logoLate{
+    width: 13px;
+    height: 14px;
+    overflow: hidden;
+    top: -80px;
+    left: 58px;
+}
+
+.logoLate span{
+    display: block;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: normal;
+    height: 10px;
+    line-height: normal;
+    color: red;
+}
+.btn_color{
+    background-color: #ccc;
+}

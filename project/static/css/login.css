@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin:0;
+}
+.my_small{
+     font-size: 0.8rem;
+ }
+.my_bground{
+    background: url(../img/login/ggg.jpg) no-repeat;
+    background-size: cover;
+}
+.bg-1{
+    background: rgba(0,0,0,0.2);
+}
+.my_border{
+    border-bottom: 1px solid #fff3cd;
+    width: 110px;
+    display: inline-block;
+}
+table tr td span.text-white{
+    vertical-align: middle;
+}

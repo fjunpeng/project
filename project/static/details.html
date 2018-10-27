@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/details.css"/>
+    <link rel="stylesheet" href="css/glyphicon.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <header class="nav_color">
+        <nav class="container">
+            <!--网站头部及导航栏-->
+            <!--1.logo-->
+            <div class="row">
+                <div class="col-lg-2">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/header/logo.jpg" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <ul class="nav d-flex justify-content-around mt-2">
+                        <li>
+                            <a class="nav-link my_color" href="#">发现音乐</a>
+                        </li>
+                        <li><a class="nav-link my_color" href="#">我的音乐</a></li>
+                        <li><a class="nav-link my_color" href="#">朋友</a></li>
+                        <li><a class="nav-link my_color" href="#">商城</a></li>
+                        <li><a class="nav-link my_color" href="#">音乐人</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <div class="d-flex flex-lg-nowrap">
+                        <input type="text" class="form-control my_input w-60 mt-2" placeholder="音乐/视频/电台/用户">
+                        <a href="login.html" class="my_color ml-5 mt-3" target="_blank">登录</a>
+                        <a href="register1.html" class="my_color ml-5 mt-3" target="_blank">注册</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="m-subnav">
+        <div class="wrap">
+            <ul class="nav">
+                <li><a data-module="discover" href="#" class="z-slt"><em>推荐</em></a></li>
+                <li><a data-module="toplist" href="#"><em>排行榜</em></a></li>
+                <li><a data-module="playlist" href="#"><em>歌单</em></a></li>
+                <li><a data-module="djradio" href="#"><em>主播电台</em></a></li>
+                <li><a data-module="artist" href="#"><em>歌手</em></a></li>
+                <li><a data-module="album" href="#"><em>新碟上架</em></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 bg-white">
+                <div class="row pt-5 m-0">
+                    <div class="col-lg-3">
+                        <img src="img/details/base.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col-lg-9">
+                        <img src="img/details/order.jpg" class="w-10">
+                        <h4>
+                            2018年九月最热新歌TOP50
+                        </h4>
+                        <div>
+                            <img src="img/details/logo.jpg">
+                            <a href="#" class="pl-2">云音乐</a>
+                            <span class="pl-3">2018-9-22 创建</span>
+                            <div class="mt-3">
+                                <button class="btn btn-primary my_button1"><i class="glyphicon glyphicon-play-circle my_small"></i><span class="my_small pl-1">播放</span></button><button class="btn btn-primary my_button2 "><i class="glyphicon glyphicon-plus my_small"></i></button>
+                                <button class="btn btn-white">
+                                    <i class="glyphicon glyphicon-folder-open my_small text-muted"></i>
+                                    <span>(59003)</span>
+                                </button>
+                                <button class="btn btn-white">
+                                    <i class="glyphicon glyphicon-share text-muted"></i>
+                                    <span>(59003)</span>
+                                </button>
+                                <button class="btn btn-white">
+                                    <i class="glyphicon glyphicon-download-alt text-muted"></i>
+                                    <span>(59003)</span>
+                                </button>
+                                <button class="btn btn-white">
+                                    <i class="glyphicon glyphicon-envelope text-muted"></i>
+                                    <span>(59003)</span>
+                                </button>
+                            </div>
+                            <div class="mt-4">
+                                <span class="my_small">标签：</span>
+                                <button class="btn btn-light my_small text-muted">流行</button>
+                                <button class="btn btn-light my_small text-muted">榜单</button>
+                            </div>
+                            <div class="my_small my_over">介绍： 2018年九月全站热度最高的50首新歌，歌单数据综合参考了2018年9月云音乐所有最新上架歌曲在全站的平均播放及收藏排行。（注：曲目均为9月第一次上架新歌，已排除新发行正式专辑中收录的部分9月前已上线歌曲）
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pl-3 pr-3">
+                    <div style="height:35px">
+                        <h3 class="float-lg-left mb-0 mt-1">
+                            <span style="font-size: 23px">歌曲列表</span>
+                        </h3>
+                        <span class="float-lg-left mt-3 pl-4 my_small">50首歌</span>
+                        <div class="float-lg-right mt-3 pl-4">
+                            <span class="my_small">播放：</span>
+                            <strong class="text-danger">7427660</strong>
+                            <span class="my_small">次</span>
+                        </div>
+                        <div class="float-lg-right mt-3">
+                            <a href="#">
+                                <i class="glyphicon glyphicon-music text-primary my_small"></i>
+                                <span class="my_small">生成外链播放器</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <table class="m-table table-striped">
+                            <thead class="border-bottom">
+                                <tr>
+                                    <th class="wp">&nbsp;</th>
+                                    <th class="wp">歌曲标题</th>
+                                    <th class="wp">时长</th>
+                                    <th class="wp">歌手</th>
+                                    <th class="wp">专辑</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                                <tr class="my-cis position-relative">
+                                    <td>
+                                        <span class="pl-2">1</span>
+                                        <a href="#" class="pl-5"><i class="glyphicon glyphicon-play-circle text-muted "></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-muted my_small">飘向北方(live)</a>
+                                    </td>
+                                    <td class="my-vis position-absolute">
+                                        <div class="my_small text-muted">4:18</div>
+                                        <div>
+                                            <a href="#" title="添加"><i class="glyphicon glyphicon-plus my_color my_small"></i></a>
+                                            <a href="#" title="收藏"><i class="glyphicon glyphicon-heart my_color my_small"></i></a>
+                                            <a href="#" title="分享"><i class="glyphicon glyphicon-share my_color my_small"></i></a>
+                                            <a href="#" title="下载"><i class="glyphicon glyphicon-download-alt my_color my_small"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">尤长靖/那吾克热</a></span>
+                                    </td>
+                                    <td>
+                                        <span><a href="#" class="my_small text-muted">中国新说唱 第十期</a> </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--评论区-->
+                    <div class="border-bottom border-danger pb-1 mt-3">
+                        <div style="height:35px" >
+                            <h3 class="float-lg-left mb-0 mt-1">
+                                <span style="font-size: 23px">评论</span>
+                            </h3>
+                            <span class="float-lg-left mt-3 pl-4 my_small">共593条评论</span>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="float-lg-left">
+                            <img src="img/details/default_avatar.jpg" style="width:50px">
+                        </div>
+                        <div class="pl-3 float-lg-left">
+                            <textarea name="text" maxlength="200" cols="100" rows="3" placeholder="评论"></textarea>
+                        </div>
+                        <div class="float-lg-right">
+                            <span class="my_small text-muted pr-3">200</span>
+                            <a href="#">
+                                <button class="btn btn-primary my_small  pt-1 pb-1">提交</button>
+                            </a>
+                        </div>
+                        <div class="logoLate position-relative">
+                            <span>◆</span>
+                            <span>◆</span>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3 border-bottom pb-1">
+                        <h5 class=" mb-0 mt-2 text-muted">
+                            精彩评论
+                        </h5>
+                        <span class=" mt-3 pl-4 my_small">共593条评论</span>
+                    </div>
+                    <!--评论列表-->
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                    <div class="d-flex">
+                        <div class="pr-3">
+                            <a href="#"><img src="img/details/p1.jpg"></a>
+                        </div>
+                        <p>
+                            <a href="#" class="my_small">云想衣裳花想容</a>
+                            <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-between pl-2">
+                        <span class="my_small pl-5">2018-09-22 8:40</span>
+                        <a href="#" class="text-muted my_small pr-3">回复</a>
+                    </div>
+                </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">云想衣裳花想容</a>
+                                <span class="my_small">: 飘向北方 ，张家明和婉君，年少有为，wait wait wait ，在一起，仲夏夜，都非常好听！我爱大厂男孩和导师们，愿你们前程似锦，一往无前！</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3 border-bottom pb-1">
+                        <h5 class="mb-0 mt-2 text-muted" style="font-size: 15px">
+                            最新评论(394)
+                        </h5>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p1.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p2.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p3.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                    <div class="pt-3 pb-3 pl-2 pr-2 border-bottom">
+                        <div class="d-flex">
+                            <div class="pr-3">
+                                <a href="#"><img src="img/details/p4.jpg"></a>
+                            </div>
+                            <p>
+                                <a href="#" class="my_small">赋你深情</a>
+                                <span class="my_small">: 在里面听到小蔡的歌还挺惊喜的</span>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between pl-2">
+                            <span class="my_small pl-5">2018-09-22 8:40</span>
+                            <a href="#" class="text-muted my_small pr-3">回复</a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="float-lg-right list-unstyled mt-5 mr-5">
+                    <li class="float-lg-left mr-1">
+                        <a href="#" class="border pr-2 pl-2 pt-1 pb-1 text-muted ">上一页</a>
+                    </li>
+                    <li class="float-lg-left mr-1">
+                        <a href="#" class="btn-danger border pr-2 pl-2 pt-1 pb-1 text-white">1</a>
+                    </li>
+                    <li class="float-lg-left mr-1">
+                        <a href="#" class="border pr-2 pl-2 pt-1 pb-1 text-muted">2</a>
+                    </li>
+                    <li class="float-lg-left mr-1">
+                        <a href="#" class="border pr-2 pl-2 pt-1 pb-1 text-muted">3</a>
+                    </li>
+                    <li class="float-lg-left mr-1">
+                        <a href="#" class="border pr-2 pl-2 pt-1 pb-1 text-muted">4</a>
+                    </li>
+                    <li class="float-lg-left mr-1">
+                        <a href="#" class="border pr-2 pl-2 pt-1 pb-1 text-muted">5</a>
+                    </li>
+                    <li class="float-lg-left mr-1">
+                        <a href="#" class="border pr-2 pl-2 pt-1 pb-1 text-muted">下一页</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--侧栏-->
+            <div class="col-lg-3 border border-top-0 pt-4 pr-4 pl-3 bg-white">
+                <img src="img/details/wykl.jpg" class="ml-4">
+                <div class="my_border-bottom mt-5">
+                    <h6 class="my_small">喜欢这个歌单的人</h6>
+                </div>
+                <ul class="list-unstyled mt-3">
+                    <li class="my_bgcolor1 d-inline">
+                        <a href="#">
+                            <img src="img/details/ph1.jpg" class="pl-1 pb-1 pt-1">
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 d-inline">
+                        <a href="#">
+                            <img src="img/details/ph2.jpg" class="pl-1 pb-1 pt-1">
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 d-inline">
+                        <a href="#">
+                            <img src="img/details/ph3.jpg" class="pl-1 pb-1 pt-1">
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 d-inline">
+                        <a href="#">
+                            <img src="img/details/ph4.jpg" class="pl-1 pb-1 pt-1">
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 d-inline">
+                        <a href="#">
+                            <img src="img/details/ph5.jpg" class="pl-1 pb-1 pt-1">
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 d-inline">
+                        <a href="#">
+                            <img src="img/details/ph6.jpg" class="pl-1 pb-1 pt-1">
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 d-inline">
+                        <a href="#">
+                            <img src="img/details/ph7.jpg" class="pl-1 pb-1 pt-1">
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 d-inline">
+                        <a href="#">
+                            <img src="img/details/ph8.jpg" class="pl-1 pb-1 pt-1">
+                        </a>
+                    </li>
+                </ul>
+                <div class="my_border-bottom mt-2">
+                    <h6 class="my_small font-weight-bold ">相关推荐</h6>
+                </div>
+                <ul class="list-unstyled mt-3">
+                    <li class="my_bgcolor1 mb-3">
+                        <a href="#" class="d-flex">
+                            <div class="p-2">
+                                <img src="img/details/August.jpg" title="2018八月最热新歌TOP50">
+                            </div>
+                            <div>
+                                <p class="mb-0 pl-1  mt-2 text-muted my_over1">2018八月最热新歌TOP50</p>
+                                <span class="text-muted my_small pl-1">by 云音乐</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 mb-3">
+                        <a href="#" class="d-flex">
+                            <div class="p-2">
+                                <img src="img/details/July.jpg" title="2018七月最热新歌TOP50">
+                            </div>
+                            <div>
+                                <p class="mb-0 pl-1  mt-2 text-muted my_over1">2018七月最热新歌TOP50</p>
+                                <span class="text-muted my_small pl-1">by 云音乐</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="my_bgcolor1 mb-3">
+                        <a href="#" class="d-flex">
+                            <div class="p-2">
+                                <img src="img/details/week.jpg" title="【VIP专享】一周新歌推荐">
+                            </div>
+                            <div>
+                                <p class="mb-0 pl-1  mt-2 text-muted my_over1">【VIP专享】一周新歌推荐</p>
+                                <span class="text-muted my_small pl-1">by 云音乐</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <footer style="background: #fcf8e3"  id="foot">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-lg-6 col-md-6 p-0">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="my_small"><h6 class="d-lg-inline text-muted">关于图图</h6></a>&nbsp;|
+                            <a href="#" class="my_small"><h6 class="d-lg-inline text-muted">客户服务</h6></a>&nbsp;|
+                            <a href="#" class="my_small"><h6 class="d-lg-inline text-muted">服务条款</h6></a>&nbsp;|
+                            <a href="#" class="my_small"><h6 class="d-lg-inline text-muted">网站导航</h6></a>&nbsp;|
+                            <a href="#" class="my_small"><h6 class="d-lg-inline text-muted">意见反馈</h6></a>
+                        </li>
+                        <li class="mb-2"><h6 class="text-muted">图图公司版权所有@1994-2018 华中云翼软件科技公司运营 豫网文 |2018|2505|360号</h6></li>
+                        <li><h6 class="text-muted">违法和不良信息举报电话：400-520-18820&nbsp;&nbsp;举报邮箱：musicclode@163.com</h6></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 p-0 pl-5">
+                    <ul class="d-flex justify-content-lg-around list-unstyled">
+                        <li class="text-center"><a href="#"><img src="img/footer/yingfu.png" alt=""/><p class="text-muted mt-2">独立音乐人</p></a></li>
+                        <li class="text-center"><a href="#"><img src="img/footer/yingfu.png" alt=""/><p class="text-muted mt-2">音乐专栏</p></a></li>
+                        <li class="text-center"><a href="#"><img src="img/footer/yingfu.png" alt=""/><p class="text-muted mt-2">自媒体</p></a></li>
+                        <li class="text-center"><a href="#"><img src="img/footer/yingfu.png" alt=""/><p class="text-muted mt-2">优酷</p></a></li>
+                        <li class="text-center"><a href="#"><img src="img/footer/yingfu.png" alt=""/><p class="text-muted mt-2">项目合作</p></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
